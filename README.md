@@ -1,6 +1,6 @@
-# Together Chrome Extension
+# Together Extension
 
-This is an extension for Google Chrome that provides a simple interface for saving pages to [Together.app][1]. Pages can be saved to **PDF**, as **bookmarks**, or as **web archives**.
+This is an extension for **Google Chrome** that provides a simple interface for saving pages to [Together.app][1]. Pages can be saved to **PDF**, as **bookmarks**, or as **web archives**.
 
 ## How does it work? 
 
@@ -28,7 +28,7 @@ No. But I really like the Together app, and the only way to save web pages, curr
 
 ## Does this extension do anything creepy or weird with my information?
 
-**No.** The source code (which lives in [/src](/src)) is short and straightforward — you can verify for yourself!
+**No.** The source code (which lives in [/src](/src)) is short and straightforward — you can verify for yourself. If you want to pack extension yourself, you’ll have to enable Developer Mode in Chrome, and then add the /src folder in the chrome://settings window.
 
 ## What is *Together*?
 
