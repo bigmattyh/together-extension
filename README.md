@@ -22,9 +22,10 @@ When you click one of these buttons, the extension gets the title and URL of you
 
 1. Download the repo.
 2. Go to [chrome://extensions](chrome://extensions).
-3. Click **Load unpacked extension…**.
-4. Choose the **src** folder of the repo.
-5. Check the **Enabled** checkbox.
+3. Make sure the checkbox next to **Developer mode** is checked.
+4. Click **Load unpacked extension…**.
+5. Choose the **src** folder of the repo.
+6. Check the **Enabled** checkbox.
 
 Pretty easy.
 
