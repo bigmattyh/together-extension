@@ -16,16 +16,12 @@ When you click one of these buttons, the extension gets the title and URL of you
 
 ## Does this extension do anything creepy or weird with my information?
 
-**No.** The source code (living in **/src**) is short and straightforward — you can verify for yourself!
+**No.** The source code (which lives in [/src](/src)) is short and straightforward — you can verify for yourself!
 
 ## How do I install it?
 
-1. Download the repo.
-2. Go to [chrome://extensions](chrome://extensions).
-3. Make sure the checkbox next to **Developer mode** is checked.
-4. Click **Load unpacked extension…**.
-5. Choose the **src** folder of the repo.
-6. Check the **Enabled** checkbox.
+1. [Download the extension](packed/Together.crx).
+2. Drag it into Chrome.
 
 Pretty easy.
 
