@@ -4,30 +4,31 @@ This is an extension for Google Chrome that provides a simple interface for savi
 
 ## How does it work? 
 
-The extension is a Browser Action that puts a little icon near your address bar (you can choose where, exactly).
+The extension puts a little icon near your address bar:
 
 ![Living next to your address bar, awaiting your click…](docs/closed.png)
 
-When you click it, a little menu pops up with three buttons, letting you choose how you want to save the web page.
+Clicking on the icon brings up a compact menu that lets you choose how to save the web page.
 
 ![And clicked.](docs/open.png)
 
-When you click one of these buttons, the extension gets the title and URL of your active tab and builds a Together app URL so that Together can receive the information. This happens in a single tiny invisible IFRAME.
-
-## Does this extension do anything creepy or weird with my information?
-
-**No.** The source code (which lives in [/src](/src)) is short and straightforward — you can verify for yourself!
+When one of these buttons is clicked, the extension gets the title and address of your active tab and sends them to Together. The native app does the rest.
 
 ## How do I install it?
 
 1. [Download the extension](packed/Together.crx?raw=true).
-2. Drag it into Chrome.
+2. Navigate to [chrome://extensions](chrome://extensions).
+3. Drag the extension into Chrome.
 
 Pretty easy.
 
 ## Is this official?
 
 No. But I really like the Together app, and the only way to save web pages, currently, is to drag bookmarklets to your browser. I'm not a fan of bookmarklets, though. So I spent a little time to make this. Now I've got a handy little icon in a nice, compact package.
+
+## Does this extension do anything creepy or weird with my information?
+
+**No.** The source code (which lives in [/src](/src)) is short and straightforward — you can verify for yourself!
 
 ## What is *Together*?
 
