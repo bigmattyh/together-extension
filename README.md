@@ -20,7 +20,7 @@ When you click one of these buttons, the extension gets the title and URL of you
 
 ## How do I install it?
 
-1. [Download the extension](packed/Together.crx).
+1. [Download the extension](packed/Together.crx?raw=true).
 2. Drag it into Chrome.
 
 Pretty easy.
