@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Save to Together</title>
+    <style>
+      *, *:before { box-sizing: border-box; position: relative; }
+      body
+      {
+        font-family: "Helvetica Neue", "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+             margin: 0;
+            padding: 3pt 5pt;
+         background: linear-gradient(to bottom, #FFFFFF 0%, #EDEDED 60%); /* W3C */
+      }
+      #title      { white-space: nowrap; }
+      .button
+      {
+        white-space: nowrap;
+            padding: 1pt 0;
+             margin: 2pt 0;
+              width: 100%;
+         text-align: center;
+         background: #FFFFFF;
+             border: 1px solid #D2D2D2;
+      border-radius: 4px;
+         box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+          font-size: 8.5pt;
+             cursor: pointer;
+      }
+      #url_router
+      {
+              width: 1px;
+             height: 1px;
+             border: 0;
+             margin: 0;
+            padding: 0;
+         visibility: hidden;
+           position: absolute;
+               left: 0;
+                top: 0;
+      }
+      #content { }
+  </style>
+  <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="title">Save to <span>Together</span>…</div>
+    <div class="button" id="together_pdf">PDF</div>
+    <div class="button" id="together_bookmark">Bookmark</div>
+    <div class="button" id="together_web">Web Archive</div>
+    <iframe id="url_router" src="" frameborder="0"></iframe>
+  </body>
+</html>

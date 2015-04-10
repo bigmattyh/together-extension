@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Save to Together",
+  "version": "0.2",
+  "description": "Save web pages to Together as a PDF, bookmark, or web archive",
+  "permissions":
+  [
+    "activeTab"
+  ],
+  "content_scripts":
+  [{
+    "js":      [ "popup.js"],
+    "matches": [ "http://*/*", "https://*/*"]
+  }],
+  "background":
+  {
+    "scripts": [ "background.js"]
+  },
+  "icons":
+  {
+     "16": "icons/icon16.png",
+     "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action":
+  {
+    "default_title": "Save to Together",
+    "default_popup": "popup.html",
+     "default_icon": "icons/icon_inactive.png"
+  }
+}
